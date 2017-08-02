@@ -8,7 +8,16 @@
     <link rel="stylesheet" type="text/css" href="/dist/style.css" media="screen" />
 </head>
 <body>
-    <div id="app">{{ msg }}</div>
+    <div id="app">
+      <app></app>
+    </div>
+    <script type="text/javascript">
+      var __INITIAL_STATE__ = [
+        { description: 'random event', date: '2017-07-06' },
+        { description: 'random event', date: '2017-07-16' },
+        { description: 'random event', date: '2017-07-06' }
+      ];
+    </script>
     <script src="/dist/web.bundle.js"></script>
 </body>
 </html>
